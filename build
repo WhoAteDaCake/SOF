@@ -1,0 +1,4 @@
+#!/bin/bash
+
+markdown-to-slides main.md -o slides.html
+xdg-open slides.html &
