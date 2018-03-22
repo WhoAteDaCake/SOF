@@ -1,6 +1,14 @@
+# Email client
+
+<div style="width:100%;height:100%;padding-bottom:6em;display:flex;justify-content:flex-end;">
+  <p style="text-align: center;margin-top:auto;">By Augustinas Jokubauskas 2018</p>
+</div>
+
+---
+
 ## Document introduction
 
-To be filled
+Email is considered as a medium that provides maximum reach for minimal investment and has served as an essential element of many marketing campaigns across all industries. Especially now, when more people than ever are getting access to internet. As developers we want the email clients to be easy and comfortable to use.
 
 ---
 
