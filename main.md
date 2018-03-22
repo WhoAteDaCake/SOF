@@ -8,7 +8,11 @@
 
 ## Document introduction
 
-Email is considered as a medium that provides maximum reach for minimal investment and has served as an essential element of many marketing campaigns across all industries. Especially now, when more people than ever are getting access to internet. As developers we want the email clients to be easy and comfortable to use.
+Email is considered as a medium that provides maximum reach for minimal investment and has served as an essential element of many marketing campaigns across all industries. Especially now, when more people than ever are getting access to internet. As developers we want the email clients to be easy and comfortable to use, but how do we do that?
+
+### Solution
+
+By using ethnomethodology and field work to observe regular mail handling workflow at home to get the insight of human behaviour in dealing with mail. Regular mail can differ from home to home, so we will be observing behaviours to determine, what functionality does our email client require.
 
 ---
 
