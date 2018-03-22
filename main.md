@@ -12,7 +12,7 @@ Email is considered as a medium that provides maximum reach for minimal investme
 
 ### Solution
 
-By using ethnomethodology and field work to observe regular mail handling workflow at home to get the insight of human behaviour in dealing with mail. Regular mail can differ from home to home, so we will be observing behaviours to determine, what functionality does our email client require.
+By using ethnomethodology and field work to observe paper mail handling workflow at home to get the insight of human behaviour in dealing with mail. Paper mail can differ from home to home, so we will be observing behaviours to determine, what functionality does our email client require.
 
 ---
 
