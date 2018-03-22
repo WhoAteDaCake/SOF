@@ -12,13 +12,23 @@ Email is considered as a medium that provides maximum reach for minimal investme
 
 ### Solution
 
-By using ethnomethodology and field work to observe paper mail handling workflow at home to get the insight of human behaviour in dealing with mail. Paper mail can differ from home to home, so we will be observing behaviours to determine, what functionality does our email client require.
+By using ethnomethodology and field work to observe paper mail handling workflow at home to get the insight of human behaviour in dealing with mail. Paper mail can differ from home to home, so we will be observing behaviours to determine, what functionality does our email client require. We will also be using the data collected by Richard Harper and his book "Inside the Smart Home"
 
 ---
 
 ## Informal requirements report
 
-To be filled
+First we study the common way of handling mail in sequential order:
+
+1.  Mail arrives at a delivery point
+
+> Our client needs to have an entry point which the emails will be sent to. Always has to be one and all users should have access to it.
+
+2.  Mail is collected and placed to a shared space
+
+> Our client needs a shared space which users have access to and can sort the mail that was directed to the house or to a specific user. Also directed mail can not be open by anyone else than the sender.
+
+3.  Mail is sorted
 
 ---
 
