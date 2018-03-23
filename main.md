@@ -26,7 +26,7 @@ Mail arrives at a delivery point
 
 Mail is collected and placed to a shared space
 
-> Our client needs a shared space which users have access to and can sort the mail that was directed to the house or to a specific user. Also directed mail can not be open by anyone else than the specified receiver.
+> Our client needs a shared space which users have access to and can sort the mail that was directed to the house or to a specific user. Also directed mail can not be open by anyone else than the specified receiver, which means the system needs an authentication system
 
 Mail is sorted and spam is gotten rid of
 
@@ -80,15 +80,35 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 ---
 
-## System overview
+## Non-functional requirements of the system
 
-To be filled
+Specification: _When sent to the house_ is mentioned, it means that the email was addressed to a house rather than to a specific person inside the house.
+
+| ID    |                                          Requirement                                           |
+| ----- | :--------------------------------------------------------------------------------------------: |
+| REQ-1 |            System should have an entry point for all letters sent to house address             |
+| REQ-2 |                    All users should have access to systems collection point                    |
+| REQ-3 |          System should have a visual interface, where all emails should be displayed           |
+| REQ-4 | System should have user system, where people can register with their name,surname and password |
+| REQ-5 |                   System should only the recipients of the email to open it                    |
+| REQ-6 |                    System should allow users to assign email to other users                    |
+| REQ-7 |                 System should allow openning email that was sent to the house                  |
+| REQ-8 |                              System should allow to delete emails                              |
 
 ---
 
-## Non-functional requirements of the system
-
-To be filled
+| ID     |                                    Requirement                                     |
+| ------ | :--------------------------------------------------------------------------------: |
+| REQ-9  |           System should allow to preview contents of email sent to house           |
+| REQ-10 |            System should should have a grouping system for house email             |
+| REQ-10 |    System should should allow users to access their email from multiple devices    |
+| REQ-11 |                System should be able to set reminders about emails                 |
+| REQ-12 |                  System should have long term storage for emails                   |
+| REQ-13 |                     System should have ability to group emails                     |
+| REQ-14 |             System should allow users to share emails with other users             |
+| REQ-15 |                      System should have a permissions system                       |
+| REQ-16 | System should allow users to monitor incomming mail if they have right permissions |
+| REQ-17 |              System should allow multiple users to use system at once              |
 
 ---
 
