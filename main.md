@@ -126,10 +126,14 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 ## Formal description of the system behaviour
 
-To be filled
+![Alt Text](./images/System_activity_diagram.png "Activity diagram")
 
 ---
 
 ## Examples of system usage
 
-To be filled
+* A person living in a house receives an email, he loooks at the master email client to see that it just contains some spam for a local dealership, person deletes the email.
+
+* A person living in a house receives an email, he finds out that it's a greeting from his aunt, he moves it to notice board, so everyone can see it.
+
+* A person living in a house receives an email, he finds out that it's a personal phone bill, so he moves the email to his own account.
