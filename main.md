@@ -80,13 +80,11 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 ---
 
-## Non-functional requirements of the system
-
-Specification: _When sent to the house_ is mentioned, it means that the email was addressed to a house rather than to a specific person inside the house.
+## Functional requirements of the system
 
 | ID      |                                          Requirement                                           |
 | ------- | :--------------------------------------------------------------------------------------------: |
-| NFREQ-1 |            System should have an entry point for all letters sent to house address             |
+| NFREQ-1 |    System should have an entry point (email address) for all letters sent to house address     |
 | NFREQ-2 |                    All users should have access to systems collection point                    |
 | NFREQ-3 |          System should have a visual interface, where all emails should be displayed           |
 | NFREQ-4 | System should have user system, where people can register with their name,surname and password |
@@ -112,13 +110,17 @@ Specification: _When sent to the house_ is mentioned, it means that the email wa
 
 ---
 
-## Functional requirements of the system
+## Non-functional requirements of the system
 
-| ID     |                         Requirement                          |
-| ------ | :----------------------------------------------------------: |
-| FREQ-1 |  System shall house one main server for all incomming mail   |
-| FREQ-2 |   System will host one authentication server for all users   |
-| FREQ-3 | System will display all received mail to any registered user |
+| ID     |                                           Requirement                                            |
+| ------ | :----------------------------------------------------------------------------------------------: |
+| FREQ-1 |     System must have one server that can handle incomming emails without loosing any of them     |
+| FREQ-2 |       System must host one authentication server that can store data of more than 7 users        |
+| FREQ-3 | System shall have a visual interface that users can interact with with no grater than 1s latency |
+| FREQ-4 |                         System must support more than 7 concurrent users                         |
+| FREQ-5 |   All incomming emails should take no longer than 5 minutes to appear on the visual interface    |
+| FREQ-6 |           System should be able to store long term store emails for at least 2 months            |
+| FREQ-7 |       System should be able to load back up after going down in no longer than 10 minutes        |
 
 ---
 
