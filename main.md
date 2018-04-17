@@ -84,29 +84,29 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 | ID      |                                          Requirement                                           |
 | ------- | :--------------------------------------------------------------------------------------------: |
-| NFREQ-1 |    System should have an entry point (email address) for all letters sent to house address     |
-| NFREQ-2 |                    All users should have access to systems collection point                    |
-| NFREQ-3 |          System should have a visual interface, where all emails should be displayed           |
-| NFREQ-4 | System should have user system, where people can register with their name,surname and password |
-| NFREQ-5 |                   System should only the recipients of the email to open it                    |
-| NFREQ-6 |                    System should allow users to assign email to other users                    |
-| NFREQ-7 |                 System should allow openning email that was sent to the house                  |
-| NFREQ-8 |                              System should allow to delete emails                              |
+| FREQ-1 |    System should have an entry point (email address) for all letters sent to house address     |
+| FREQ-2 |                    All users should have access to systems collection point                    |
+| FREQ-3 |          System should have a visual interface, where all emails should be displayed           |
+| FREQ-4 | System should have user system, where people can register with their name,surname and password |
+| FREQ-5 |                   System should only the recipients of the email to open it                    |
+| FREQ-6 |                    System should allow users to assign email to other users                    |
+| FREQ-7 |                 System should allow openning email that was sent to the house                  |
+| FREQ-8 |                              System should allow to delete emails                              |
 
 ---
 
 | ID       |                                    Requirement                                     |
 | -------- | :--------------------------------------------------------------------------------: |
-| NFREQ-9  |           System should allow to preview contents of email sent to house           |
-| NFREQ-10 |            System should should have a grouping system for house email             |
-| NFREQ-10 |    System should should allow users to access their email from multiple devices    |
-| NFREQ-11 |                System should be able to set reminders about emails                 |
-| NFREQ-12 |                  System should have long term storage for emails                   |
-| NFREQ-13 |                     System should have ability to group emails                     |
-| NFREQ-14 |             System should allow users to share emails with other users             |
-| NFREQ-15 |                      System should have a permissions system                       |
-| NFREQ-16 | System should allow users to monitor incomming mail if they have right permissions |
-| NFREQ-17 |              System should allow multiple users to use system at once              |
+| FREQ-9  |           System should allow to preview contents of email sent to house           |
+| FREQ-10 |            System should should have a grouping system for house email             |
+| FREQ-10 |    System should should allow users to access their email from multiple devices    |
+| FREQ-11 |                System should be able to set reminders about emails                 |
+| FREQ-12 |                  System should have long term storage for emails                   |
+| FREQ-13 |                     System should have ability to group emails                     |
+| FREQ-14 |             System should allow users to share emails with other users             |
+| FREQ-15 |                      System should have a permissions system                       |
+| FREQ-16 | System should allow users to monitor incomming mail if they have right permissions |
+| FREQ-17 |              System should allow multiple users to use system at once              |
 
 ---
 
@@ -114,13 +114,20 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 | ID     |                                           Requirement                                            |
 | ------ | :----------------------------------------------------------------------------------------------: |
-| FREQ-1 |     System must have one server that can handle incomming emails without loosing any of them     |
-| FREQ-2 |       System must host one authentication server that can store data of more than 7 users        |
-| FREQ-3 | System shall have a visual interface that users can interact with with no grater than 1s latency |
-| FREQ-4 |                         System must support more than 7 concurrent users                         |
-| FREQ-5 |   All incomming emails should take no longer than 5 minutes to appear on the visual interface    |
-| FREQ-6 |           System should be able to store long term store emails for at least 2 months            |
-| FREQ-7 |       System should be able to load back up after going down in no longer than 10 minutes        |
+| NFREQ-1 |     System must have one server that can handle incomming emails without loosing any of them     |
+| NFREQ-2 |       System must host one authentication server that can store data of more than 7 users        |
+| NFREQ-3 | System shall have a visual interface that users can interact with with no grater than 1s latency |
+| NFREQ-4 |                         System must support more than 7 concurrent users                         |
+| NFREQ-5 |   All incomming emails should take no longer than 5 minutes to appear on the visual interface    |
+| NFREQ-6 |           System should be able to store long term store emails for at least 2 months            |
+| NFREQ-7 |       System should be able to load back up after going down in no longer than 10 minutes        |
+
+
+---
+
+## System overview
+
+![Alt Text](./images/sytem_context_diagram.png "Context diagram")
 
 ---
 
