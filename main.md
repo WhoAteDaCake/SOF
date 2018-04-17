@@ -82,8 +82,8 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 ## Functional requirements of the system
 
-| ID      |                                          Requirement                                           |
-| ------- | :--------------------------------------------------------------------------------------------: |
+| ID     |                                          Requirement                                           |
+| ------ | :--------------------------------------------------------------------------------------------: |
 | FREQ-1 |    System should have an entry point (email address) for all letters sent to house address     |
 | FREQ-2 |                    All users should have access to systems collection point                    |
 | FREQ-3 |          System should have a visual interface, where all emails should be displayed           |
@@ -95,8 +95,8 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 ---
 
-| ID       |                                    Requirement                                     |
-| -------- | :--------------------------------------------------------------------------------: |
+| ID      |                                    Requirement                                     |
+| ------- | :--------------------------------------------------------------------------------: |
 | FREQ-9  |           System should allow to preview contents of email sent to house           |
 | FREQ-10 |            System should should have a grouping system for house email             |
 | FREQ-10 |    System should should allow users to access their email from multiple devices    |
@@ -112,8 +112,8 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 ## Non-functional requirements of the system
 
-| ID     |                                           Requirement                                            |
-| ------ | :----------------------------------------------------------------------------------------------: |
+| ID      |                                           Requirement                                            |
+| ------- | :----------------------------------------------------------------------------------------------: |
 | NFREQ-1 |     System must have one server that can handle incomming emails without loosing any of them     |
 | NFREQ-2 |       System must host one authentication server that can store data of more than 7 users        |
 | NFREQ-3 | System shall have a visual interface that users can interact with with no grater than 1s latency |
@@ -121,7 +121,6 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 | NFREQ-5 |   All incomming emails should take no longer than 5 minutes to appear on the visual interface    |
 | NFREQ-6 |           System should be able to store long term store emails for at least 2 months            |
 | NFREQ-7 |       System should be able to load back up after going down in no longer than 10 minutes        |
-
 
 ---
 
@@ -134,6 +133,8 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 ## Formal description of the system behaviour
 
 ![Alt Text](./images/System_activity_diagram.png "Activity diagram")
+
+![Alt Text](./images/sequence_diag.png "Activity diagram")
 
 ---
 
