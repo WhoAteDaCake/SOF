@@ -38,3 +38,7 @@ The main purpose is to validate user before database access, this way users can 
 Serve the content that will be displayed for the user. Also manages all user interactions by communicating with the Authentication server to acquire and modify data
 
 ![Alt Text](./images/sytem_context_diagram.png "Context diagram")
+
+## Class diagram
+
+![Alt Text](./images/class_diagram.png "Class diagram")
