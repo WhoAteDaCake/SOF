@@ -36,3 +36,5 @@ The main purpose is to validate user before database access, this way users can 
 ### UserInterface server
 
 Serve the content that will be displayed for the user. Also manages all user interactions by communicating with the Authentication server to acquire and modify data
+
+![Alt Text](./images/sytem_context_diagram.png "Context diagram")
