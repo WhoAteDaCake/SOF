@@ -82,31 +82,26 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 ## Functional requirements of the system
 
-| ID     |                                          Requirement                                           |
-| ------ | :--------------------------------------------------------------------------------------------: |
-| FREQ-1 |    System should have an entry point (email address) for all letters sent to house address     |
-| FREQ-2 |                    All users should have access to systems collection point                    |
-| FREQ-3 |          System should have a visual interface, where all emails should be displayed           |
-| FREQ-4 | System should have user system, where people can register with their name,surname and password |
-| FREQ-5 |                   System should only the recipients of the email to open it                    |
-| FREQ-6 |                    System should allow users to assign email to other users                    |
-| FREQ-7 |                 System should allow openning email that was sent to the house                  |
-| FREQ-8 |                              System should allow to delete emails                              |
-
----
-
-| ID      |                                    Requirement                                     |
-| ------- | :--------------------------------------------------------------------------------: |
-| FREQ-9  |           System should allow to preview contents of email sent to house           |
-| FREQ-10 |            System should should have a grouping system for house email             |
-| FREQ-10 |    System should should allow users to access their email from multiple devices    |
-| FREQ-11 |                System should be able to set reminders about emails                 |
-| FREQ-12 |                  System should have long term storage for emails                   |
-| FREQ-13 |                     System should have ability to group emails                     |
-| FREQ-14 |             System should allow users to share emails with other users             |
-| FREQ-15 |                      System should have a permissions system                       |
-| FREQ-16 | System should allow users to monitor incomming mail if they have right permissions |
-| FREQ-17 |              System should allow multiple users to use system at once              |
+| ID      |                                          Requirement                                           |
+| ------- | :--------------------------------------------------------------------------------------------: |
+| FREQ-1  |    System should have an entry point (email address) for all letters sent to house address     |
+| FREQ-2  |                    All users should have access to systems collection point                    |
+| FREQ-3  |          System should have a visual interface, where all emails should be displayed           |
+| FREQ-4  | System should have user system, where people can register with their name,surname and password |
+| FREQ-5  |                   System should only the recipients of the email to open it                    |
+| FREQ-6  |                    System should allow users to assign email to other users                    |
+| FREQ-7  |                 System should allow openning email that was sent to the house                  |
+| FREQ-8  |                              System should allow to delete emails                              |
+| FREQ-9  |                 System should allow to preview contents of email sent to house                 |
+| FREQ-10 |                  System should should have a grouping system for house email                   |
+| FREQ-10 |          System should should allow users to access their email from multiple devices          |
+| FREQ-11 |                      System should be able to set reminders about emails                       |
+| FREQ-12 |                        System should have long term storage for emails                         |
+| FREQ-13 |                           System should have ability to group emails                           |
+| FREQ-14 |                   System should allow users to share emails with other users                   |
+| FREQ-15 |                            System should have a permissions system                             |
+| FREQ-16 |       System should allow users to monitor incomming mail if they have right permissions       |
+| FREQ-17 |                    System should allow multiple users to use system at once                    |
 
 ---
 
