@@ -121,7 +121,7 @@ The household can receive a lot of spam mail. And it needs to be dealth with
 
 ## System overview
 
-![Alt Text](./images/sytem_context_diagram.png "Context diagram")
+![Alt Text](./images/system_context_diagram.png "Context diagram")
 
 ---
 
