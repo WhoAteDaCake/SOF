@@ -1,29 +1,46 @@
 # Introduction
 
 As our product is mainly web based, we choose the <b>Client-server<b> architecture.
+
 We will separate each of our components into self contained services because:
 
 * It's easier to modify and update each service, without others breaking.
+
 * Services can be moved to cloud to allow:
+
   * Wider access range (not just from inside the home)
+
   * Easier service management
+
   * Cost reduction by only turning on services they are needed
 
 ## Overview
 
+![Context diagram](./images/system_context_diagram.png)
+
+## Class diagram
+
+![Class diagram](./images/class_diagram.png)
+
 We will be basing our system on microservice architecture, we will have 4 main services running:
 
 * Database service
+
 * Email service
+
 * Authentication service.
+
 * Content service
 
 ### Email service
 
 The purpose of this service is to:
+
 * receive incoming emails and store them in the database.
+
 * send out outgoing mail.
-Because this is the most venerable part of the system, we only give it a very restricted access to our database. The only database feature it has access to is saving an incoming email. All of the other mail handling features are accessible trough the content service.
+
+  Because this is the most venerable part of the system, we only give it a very restricted access to our database. The only database feature it has access to is saving an incoming email. All of the other mail handling features are accessible trough the content service.
 
 ### Database service
 
@@ -40,30 +57,53 @@ This service is responsible for displaying and helping to visualise all of the o
 To make sure user is notified about any services going down, each service emits a heartbeat to let others know that it's alive. When content service is started it will listen to all available services and if any of them die, it will notify the user about the services that went down.
 
 On starting it will:
+
 * Build all of the content that will be server
+
 * Initiate and validate service access
 
 It's made of two parts: front-end and back-end. There can be multiple instances of front-end as each browser initiates a new one, however there is only one back-end server.
 
-
-
 #### Front-end
+
 * Handle user interactions with the UI
+
 * Submit requests to back-end for further data access
+
 * Acts as temporary storage for the data that user has requested in the session
+
 * Visualise retrieved data
+
 * Allows access from any browser
+
 * Allows for users to make data handling requests
+
 * Render user interface components
 
 ### Back-end
+
 * Handle all requests made from the front-end
+
 * Act as a middleman between all of the services and the front-end
+
 * Serves the user interface components that the front-end will render
+
 * Provides unique sessions for each user's device.
 
-![Alt Text](./images/system_context_diagram.png "Context diagram")
+## Components
 
-## Class diagram
+### LoginComponent
 
-![Alt Text](./images/class_diagram.png "Class diagram")
+This is the first screen a new (or not logged in) user will see. It contains inputs for user to enter their data in and a submit button to activate login function.
+
+### EmailComponent
+
+This is the screen that all of the email interactions will be dealt with, sending, retrieving, deleting, ..etc. Once component is rendered, emails are retrieved and displayed and all of event handlers are waiting for action
+
+### CalendarComponent
+
+This component handles all of the reminders that were in the emails or were set manually by the user.
+
+### UserManagementComponent
+
+This component is designed for admins(or parents) to handle and manage the user permissions.
